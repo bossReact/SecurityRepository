@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.bhurle.idea.utils.WebUtils;
  
 @Controller
+@RequestMapping(value="/")
 public class MainController {
  
     @RequestMapping(value = { "/", "/welcome" }, method = RequestMethod.GET)
